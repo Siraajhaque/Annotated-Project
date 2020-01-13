@@ -1,0 +1,23 @@
+<!-- 
+  PURPOSE: This is just a holding page for the React stuff to know where to put things
+  We can also use this as grounds for holding a bunch of files so that they can be accessed globally, but we wont
+  But never forget to add the './bundle.js' file after you start running the webpack
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Express Review</title>
+</head>
+<body>
+  <div id="app">Hello from HTML</div>
+
+  <!-- Include the following line after the webpack has been run ***"npm run build"*** to import in the bundle.js -->
+  <!-- This will let us utilize index.jsx (all the jsx files transpiled from JSX & React into HTML) -->
+  <script src ='./bundle.js'></script>
+</body>
+</html>
